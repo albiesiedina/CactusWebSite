@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Cactuses</title>
+        <link rel="icon" type="../image/ico" href="../images/icon.png">
+        <link rel="stylesheet" href="../styles/main.css">
+        <link rel="stylesheet" href="../styles/feedback.css">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Montserrat" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+           <!--Image by KELSEA-->
+            <img src="../images/logo.jpg" alt="Cactus" width="120">
+            <h1>Cactuses</h1>
+            <h3>A really agressive cucumber</h3>
+        </header>
+
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/table.html">Types of Cactus</a>
+                    <ul>
+                        <li><a href="#">Indoor Cactus</a></li>
+                        <li><a href="#">Outdoor Cactus</a>
+                            <ul>
+                                <li><a href="#">Totem Pole</a></li>
+                                <li><a href="#">Prickly Pear</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="../pages/feedback.html" class="current">Feedback</a>
+            </ul>
+        </nav>
+
+        <main>
+            <div id="sidemenu" class="left">
+                <nav id="nav_list">
+                    <ul>
+                        <a href="../index.html" class="first"><li class="first">Home</li></a>
+                        <a href="../pages/table.html" class="second"><li class="second">Types of Cactus</li></a>
+                        <a href="../pages/feedback.html" class="third"><li class="third">Feedback</li></a>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="center">
+                <article>
+                    <form name="email_form">
+                        <h2>Fill all fields. Provide us with your experience.</h2>
+                        <p>Name <input type="text" id="name"></p>
+                        <p>E-Mail <input type="text" id="email"></p><br><br>  
+                        <p class="listbox">Your favorite cactus:<br>
+                            <select name="type">
+                                <optgroup label="Indoor Cactus">
+                                    <option value="Bunny Ears">Bunny Ears</option>
+                                    <option value="Chin">Chin</option>
+                                    <option value="Star">Star</option>
+                                </optgroup>
+
+                                <optgroup label="Outdoor Cactus">
+                                    <option value="Pricly Pear">Pricly Pear</option>
+                                    <option value="Totem Pole">Totem Pole</option>
+                                    <option value="Cholla">Cholla</option>
+                                </optgroup>
+                            </select><br><br></p>
+
+                            <legend>Which kind of soil do you use for cactus?</legend>
+                            <br>
+
+                            <select multiple class="multiple" size="6">
+                                <option value="USA">Lava rock</option>
+                                <option value="Russia">Grit</option>
+                                <option value="India">Gravel</option>
+                                <option value="Britain">Limestone</option>
+                                <option value="Britain">Perlite</option>
+                                <option value="Britain">Coarse sand</option>
+                            </select>
+                            <br>
+
+                        <textarea name="comments" placeholder="If you have any comments, please leave them here" rows="7" cols="50"></textarea>
+
+                        <p>
+                            <input class="button" type="submit" value="Submit">
+                            <input class="button" type="reset" value="Reset">
+                        </p>
+                    </form>
+                </article>
+            </div>
+
+            <div class="right">
+                <form name="email_form">
+                    <p>My Website is/was:</p><br>
+                    <input type="checkbox" value="fun to visit">&nbsp;Fun to visit<br>
+                    <input type="checkbox" value="well designed">&nbsp;Well Designed<br>
+                    <input type="checkbox" value="uses good colors">&nbsp;Uses good colors<br>
+                    <input type="checkbox" value="etc.">&nbsp;etc.<br><br>
+
+                    <p class="second">Will you Visit my Site Again:</p><br>
+                    <input class="yes" type="radio" value="yes">Yes
+                    <input class="no" type="radio" value="no">No<br>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2019 Alina Biesiedina</p>
+        </footer>
+
+    </body>
+</html>

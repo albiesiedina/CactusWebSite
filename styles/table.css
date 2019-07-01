@@ -1,0 +1,69 @@
+main div.center {
+    padding-bottom: 40px;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table caption {
+    margin-bottom: 10px;
+}
+        
+thead {
+    background-color: rgb(128, 169, 126);
+    font-weight: bold;
+    border: 1px solid black;
+    text-align: center;
+}
+        
+th, td {
+    padding: 3px;
+    border: 1px solid black;
+}
+
+th {
+    text-align: center;
+}
+
+.center-align {
+    text-align: center;
+}
+
+td {
+    text-align: left;
+}
+
+/*Right aside section*/
+
+main div.right h3 {
+    padding: 80px 20px 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(86, 124, 89);
+}
+
+main div.right ul{
+    font-size: 14px;
+    list-style: square;
+    padding: 10px 20px 80px 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+main div.right ul li a{
+	color: rgb(86, 124, 89);
+	display: block;
+	padding: 6px 0px;
+}
+
+
+
+
+
+
+
+

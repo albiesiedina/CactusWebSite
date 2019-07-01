@@ -1,0 +1,40 @@
+/* Main section */
+
+main div.center p {
+    padding: 10px 20px 20px 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+main div.center img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 3px solid rgb(86, 124, 89);
+  margin-bottom: 20px;
+  border-radius: 25px;
+}
+
+/*Right aside section*/
+
+main div.right ul {
+    list-style: square;
+    padding: 80px 20px 80px 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main div.right ul h3 {
+    font-weight: bold;
+}
+
+main div.right ul li a{
+	color: rgb(86, 124, 89);
+	display: block;
+	padding: 6px 0px;
+}
+
+
+
+
+

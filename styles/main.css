@@ -1,0 +1,249 @@
+*{
+	/* Universal reset: */
+	margin: 0;
+	padding: 0;
+}
+
+header,footer,
+article,
+hgroup,nav {
+	/* Giving a display value to the HTML5 rendered elements: */
+	display: block;
+}
+
+html {
+    background-image: url("../images/dots.jpg");
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 70%;
+	background-color: white;
+	margin: 0 auto; 
+	padding: 0;
+	border: -3px solid rgb(35, 53, 37);
+	box-shadow: 0 9px 18px 9px rgb(35, 53, 37);
+    position: relative;
+    min-width: 620px;
+}
+
+header { 
+    background-image: linear-gradient(20deg, white 0%, white 50%, rgb(128, 169, 126)85%, rgb(86, 124, 89) 100%);
+    height: 165px;
+} 
+
+header img { 
+	float: left; 
+	padding: 0 15px;  
+} 
+
+header h1 {
+    padding: 50px 30px 0 180px;
+	font-size: 230%;
+    font-family: 'Indie Flower', cursive;
+}
+
+header h3 {
+    padding: 0 30px 10px 180px;
+	font-size: 125%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Navigation menu*/ 
+#nav_menu {
+	clear: left;
+}
+
+#nav_menu ul {
+    width: 100%;
+    list-style: none;
+	position: absolute;
+}
+
+#nav_menu ul li {
+    width: 33.333%;
+	float: left;
+    display: inline-block;
+    position: relative;
+}
+
+#nav_menu ul ul {
+    width: 100%;
+	display: none;
+	position: absolute;
+	top: -1;
+    float: none;
+}
+
+#nav_menu ul ul li {
+    width: 100%;
+	float: none;
+    position: relative;
+    top: 0;
+    display: block;
+}
+
+#nav_menu ul ul ul {
+    width: 50%;
+    float: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+}
+
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+
+#nav_menu > ul::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+#nav_menu ul {
+	margin: 0;
+	padding: 0;
+}
+
+#nav_menu ul li a {
+	text-align: center;
+	display: block;
+	padding: .7em 0;
+	text-decoration: none;
+	background-color: black;
+	color: white;
+}
+
+#nav_menu ul li a.current {
+	color: rgb(86, 124, 89);
+}
+
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+	background-color: gray;
+}
+
+/*Left section*/
+
+#sidemenu {
+    margin-top: 80px;
+}
+
+main div.left {
+    float: left;
+    width: 23%;
+    position: relative;
+}
+
+#nav_list ul { 
+	list-style: none;
+    padding: 0px 20px 80px 20px;
+}
+
+#nav_list ul li { 
+	list-style: none;
+}
+
+#nav_list ul a li { 
+    text-align: center;
+    padding: 10px;
+	border-top: 2px solid black; 
+    border-bottom: 2px solid black;
+}
+
+#nav_list ul a li.first{
+    background-color: rgb(86, 124, 89);
+}
+
+#nav_list ul a li.second{
+    background-color: rgb(86, 124, 89);
+}
+
+#nav_list ul li.third{
+    background-color: rgb(86, 124, 89);
+}
+
+#nav_list ul a.first{ 
+    text-align: center;
+    vertical-align: middle;
+	display: block;
+	font-weight: bold;
+	text-decoration: none;
+    background-image: url("../thumbnails/waves.JPG");
+    border: 2px solid black;
+    padding: 20px 0 20px 0; 
+    margin-bottom: 20px;
+	color: black;
+}
+
+#nav_list ul a.second{ 
+    text-align: center;
+    vertical-align: middle;
+	display: block;
+	font-weight: bold;
+	text-decoration: none;
+    background-image: url("../thumbnails/lines.JPG");
+    border: 2px solid black;
+    padding: 20px 0 20px 0; 
+    margin-bottom: 20px;
+	color: black;
+}
+
+#nav_list ul a.third{ 
+    text-align: center;
+    vertical-align: middle;
+	display: block;
+	font-weight: bold;
+	text-decoration: none;
+    background-image: url("../thumbnails/cells.JPG");
+    border: 2px solid black;
+    padding: 20px 0 20px 0; 
+    margin-bottom: 20px;
+	color: black;
+}
+
+/* Main section */
+
+main div.center {
+    float: left;
+    width: 53%;
+}
+
+main div.center h2 {
+    padding: 80px 20px 10px 20px;
+    font-style: oblique;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Right section*/
+main div.right {
+    float: right;
+    width: 24%;
+}
+
+main div.right p {
+    padding: 80px 20px 10px 20px;
+    display: block;
+}
+
+/*Footer*/
+
+footer {
+    clear: both;
+	border-top: 2px solid black;
+	padding: 5px;
+    background-color: black;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 70%;
+    padding: 5px 0 5px 0;
+}
+
+
+
+
